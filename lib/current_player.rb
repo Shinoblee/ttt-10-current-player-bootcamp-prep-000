@@ -11,9 +11,9 @@ end
 def current_player(board)
   player_icon = ''
   if turn_count(board) % 2 == 0 
-    player_icon = 'O'
-  else
     player_icon = 'X'
+  else
+    player_icon = 'O'
   end
   return player_icon
 end
