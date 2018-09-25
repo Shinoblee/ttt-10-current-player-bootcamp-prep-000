@@ -1,9 +1,8 @@
-board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-
 def turn_count(board)
   count = 0 
-  board.each do |token|
-  
+  board.each do |index|
+    if index == 'X' or index == 'O'
+      count += 1
   end
   return count
 end
