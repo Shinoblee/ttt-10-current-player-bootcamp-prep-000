@@ -10,7 +10,7 @@ end
 
 def current_player(count)
   player_icon = ''
-  if count % 2 == 0 
+  if turn_count(board) % 2 == 0 
     player_icon = 'O'
   else
     player_icon = 'X'
