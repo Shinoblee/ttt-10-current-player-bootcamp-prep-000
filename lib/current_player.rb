@@ -15,4 +15,5 @@ def current_player(board)
   else
     player_icon = 'X'
   end
+  return player_icon
 end
